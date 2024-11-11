@@ -1,0 +1,27 @@
+footer {
+    background-color: var(--color-primary-2);
+    height: 64px;
+    box-sizing: border-box;
+    padding: 12px 24px;
+}
+
+#footer_items {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#copyright {
+    color: var(--color-neutral-1);;
+    font-weight: 500;
+}
+
+@media screen and (max-width: 600px) {
+    footer {
+        height: 132px;
+    }
+    #footer_items {
+        flex-direction: column;
+        gap: 20px;
+    }
+}
